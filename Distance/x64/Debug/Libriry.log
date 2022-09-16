@@ -1,4 +1,1 @@
-﻿  Libriry.cpp
-D:\_Институт\University\Distance\Vector3.h(61,2): warning C4244: return: преобразование "double" в "float", возможна потеря данных
-  LINK : не найден или не выполнена сборка D:\_Институт\University\x64\Debug\Libriry.exe при последней инкрементной компоновке; выполняется полная компоновка
-  Libriry.vcxproj -> D:\_Институт\University\x64\Debug\Libriry.exe
+﻿  Libriry.vcxproj -> D:\_Институт\University\x64\Debug\Libriry.exe
