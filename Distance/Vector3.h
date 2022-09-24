@@ -12,7 +12,7 @@ public:
 	float y();
 	float z();
 
-	float DistanceTo(Vector3 vector);
+	static float DistanceTo(Vector3 vector1, Vector3 vector2);
 
 	float operator[](int i);
 
