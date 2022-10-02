@@ -1,1 +1,3 @@
-﻿  Libriry.vcxproj -> D:\_Институт\University\x64\Debug\Libriry.exe
+﻿  Libriry.cpp
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Moduls\Distance\Vector3.h(61,2): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  Libriry.vcxproj -> C:\Users\CTpeJlok90D\Documents\GitHub\University\Moduls\x64\Debug\Libriry.exe
