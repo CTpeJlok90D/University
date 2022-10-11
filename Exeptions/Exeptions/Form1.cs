@@ -25,7 +25,7 @@ namespace Exeptions
             {
                 return Convert.ToDecimal(textBox.Text);
             }
-            catch (FormatException exeption)
+            catch (FormatException)
             {
                 MessageBox.Show(errorMessage);
             }

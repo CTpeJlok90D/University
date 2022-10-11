@@ -38,9 +38,8 @@ namespace N3
             int i = 0;
             try
             {
-                while (true)
+                for (i = 0; true; i++)
                 {
-                    i++;
                     if (i == a)
                     {
                         throw new Exception("А?");

@@ -31,7 +31,7 @@ namespace N2
                 return;
             }
 
-            double discriminant = Math.Pow(bValue, 2) + 4 * aValue * cValue;
+            double discriminant = Math.Pow(bValue, 2) - 4 * aValue * cValue;
 
             if (discriminant < 0)
             {

@@ -1,0 +1,11 @@
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Т4\bin\Debug\Т4.exe.config
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Т4\bin\Debug\Т4.exe
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Т4\bin\Debug\Т4.pdb
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Т4\obj\Debug\Т4.csproj.AssemblyReference.cache
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Т4\obj\Debug\Т4.csproj.SuggestedBindingRedirects.cache
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Т4\obj\Debug\Т4.N4.resources
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Т4\obj\Debug\Т4.Properties.Resources.resources
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Т4\obj\Debug\Т4.csproj.GenerateResource.cache
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Т4\obj\Debug\Т4.csproj.CoreCompileInputs.cache
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Т4\obj\Debug\Т4.exe
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Т4\obj\Debug\Т4.pdb

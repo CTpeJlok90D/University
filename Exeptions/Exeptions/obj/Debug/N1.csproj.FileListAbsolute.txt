@@ -1,0 +1,11 @@
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Exeptions\bin\Debug\Exeptions.exe.config
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Exeptions\bin\Debug\Exeptions.exe
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Exeptions\bin\Debug\Exeptions.pdb
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Exeptions\obj\Debug\N1.csproj.AssemblyReference.cache
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Exeptions\obj\Debug\N1.csproj.SuggestedBindingRedirects.cache
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Exeptions\obj\Debug\Exeptions.Form1.resources
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Exeptions\obj\Debug\Exeptions.Properties.Resources.resources
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Exeptions\obj\Debug\N1.csproj.GenerateResource.cache
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Exeptions\obj\Debug\N1.csproj.CoreCompileInputs.cache
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Exeptions\obj\Debug\Exeptions.exe
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Exeptions\Exeptions\obj\Debug\Exeptions.pdb
