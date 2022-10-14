@@ -2,18 +2,23 @@
 {
     public class Tree<T>
     {
-        private Leave<T> _root;
+        private Branch<T> _root;
 
         public Tree(T root)
         {
-            _root = new Leave<T>(root);
+            _root = new Branch<T>(root);
         }
 
-        public Leave<T> Root => _root;
+        public Branch<T> Root => _root;
 
-        public Leave<T> this[int index]
+        public Branch<T> this[int index]
         {
             get => _root[index];
+        }
+
+        public override string ToString()
+        {
+            return $"{_root}";
         }
     }
 }

@@ -4,17 +4,20 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Tree<int> tree = new(5);
-        tree.Root.AddLeave(3);
-        tree.Root.AddLeave(1);
-        tree.Root.AddLeave(2);
-
-        Console.WriteLine($"{tree[0].Value} {tree[1].Value} {tree[2].Value}");
-
-        tree[0].AddLeave(4);
-        tree[0].AddLeave(5);
-        tree[1].AddLeave(1);
-
-        Console.WriteLine($"{tree[0][0].Value} {tree[0][1].Value} {tree[1][0].Value}");
+        FloatBinarTree tree = new(5);
+        tree.Root.AddBranch(3);
+        tree.Root.AddBranch(1);
+        tree[0].AddBranch(4);
+        tree[0].AddBranch(5);
+        tree[1].AddBranch(1);
+        tree[1].AddBranch(13);
+        tree[1][0].AddBranch(1);
+        tree[1][0].AddBranch(3);
+        tree[1][1].AddBranch(10);
+        tree[1][1].AddBranch(15);
+        Console.WriteLine(tree);
+        Console.WriteLine("==============================");
+        tree[1].RemoveItem(1);
+        Console.WriteLine(tree);
     }
 }

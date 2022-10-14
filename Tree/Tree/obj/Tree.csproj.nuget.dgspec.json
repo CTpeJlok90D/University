@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\A.exe\\University\\Tree\\Tree\\Tree.csproj": {}
+    "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\Tree\\Tree.csproj": {}
   },
   "projects": {
-    "D:\\A.exe\\University\\Tree\\Tree\\Tree.csproj": {
+    "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\Tree\\Tree.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\A.exe\\University\\Tree\\Tree\\Tree.csproj",
+        "projectUniqueName": "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\Tree\\Tree.csproj",
         "projectName": "Tree",
-        "projectPath": "D:\\A.exe\\University\\Tree\\Tree\\Tree.csproj",
+        "projectPath": "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\Tree\\Tree.csproj",
         "packagesPath": "C:\\Users\\CTpeJlok90D\\.nuget\\packages\\",
-        "outputPath": "D:\\A.exe\\University\\Tree\\Tree\\obj\\",
+        "outputPath": "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\Tree\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\CTpeJlok90D\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,8 +49,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

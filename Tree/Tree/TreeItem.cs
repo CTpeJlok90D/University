@@ -1,29 +1,51 @@
 ﻿namespace Tree
 {
-    public class Leave<T>
+    public class Branch<T>
     {
-        private List<Leave<T>> _leaves = new();
-        T _value;
+        private List<Branch<T>> _branches = new();
+        private T _value;
 
-        internal Leave(T value, List<Leave<T>> leaves)
+        internal Branch(T value, List<Branch<T>> leaves)
         {
             _value = value;
-            _leaves = leaves;
+            _branches = leaves;
         }
-        internal Leave(T value)
+        internal Branch(T value)
         {
             _value = value;
         }
 
         public T Value => _value;
+        public int BranchCount => _branches.Count;
 
-        public void AddLeave(T value)
+        public virtual void AddBranch(T value)
         {
-            _leaves.Add(new Leave<T>(value));
+            _branches.Add(new Branch<T>(value));
         }
-        public Leave<T> this[int index]
+
+        public Branch<T> this[int index]
         {
-            get => _leaves[index];
+            get => _branches[index];
+        }
+
+        public override string ToString()
+        {
+            return ToString("_");
+        }
+
+        internal string ToString(string Layer)
+        {
+            string result = $"#{Value}\n";
+            if (_branches.Count == 0)
+            {
+                return result;
+            }
+
+            foreach (Branch<T> branch in _branches)
+            {
+                result += Layer + $"{branch.ToString(Layer + "_")}";
+            }
+            return result;
         }
     }
 }
