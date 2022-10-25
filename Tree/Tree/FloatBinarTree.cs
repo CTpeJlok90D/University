@@ -19,5 +19,10 @@
         {
             return $"{_root}";
         }
+
+        public void Add(float value)
+        {
+
+        }
     }
 }

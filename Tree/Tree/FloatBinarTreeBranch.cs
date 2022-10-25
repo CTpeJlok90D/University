@@ -2,17 +2,17 @@
 {
     public class FloatBinarTreeBranch
     {
-        public float Value;
+        private float _value;
         private List<FloatBinarTreeBranch> _branches = new();
 
         internal FloatBinarTreeBranch(float value)
         {
-            Value = value;
+            _value = value;
         }
 
         public int BranchCount => _branches.Count;
 
-        public void AddBranch(float value)
+        internal void AddBranch(float value)
         {
             if(BranchCount >= 2)
             {
@@ -32,15 +32,15 @@
 
         private void SortBranches()
         {
-            if (_branches[0].Value > _branches[1].Value) 
+            if (_branches[0]._value > _branches[1]._value) 
             {
-                float bufer = _branches[0].Value;
-                _branches[0].Value = _branches[1].Value;
-                _branches[1].Value = bufer;
+                float bufer = _branches[0]._value;
+                _branches[0]._value = _branches[1]._value;
+                _branches[1]._value = bufer;
             }
         }
 
-        public void RemoveItem(int index) 
+        internal void RemoveItem(int index) 
         {
             if (_branches[index].BranchCount == 0) 
             {
@@ -56,25 +56,8 @@
                 currentBrach = currentBrach[0];
             }
 
-            _branches[index].Value = currentBrach.Value;
+            _branches[index]._value = currentBrach._value;
             previewBrach._branches.RemoveAt(0);
-        }
-
-        private FloatBinarTreeBranch GetMinLastBranch() 
-        {
-            if (_branches.Count == 0)
-            {
-                return this;
-            }
-
-            FloatBinarTreeBranch currentBrach = this[0];
-
-            while (currentBrach.BranchCount > 0) 
-            {
-                currentBrach = currentBrach[0];
-            }
-
-            return currentBrach;
         }
 
         public override string ToString() 
@@ -84,7 +67,7 @@
 
         internal string ToString(string Layer) 
         {
-            string result = $"#{Value}\n";
+            string result = $"#{_value}\n";
             if (_branches.Count == 0)
             {
                 return result;
