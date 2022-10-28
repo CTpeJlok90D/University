@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\A.exe\\University\\Tree\\Tree\\Tree.csproj": {
-                "projectPath": "D:\\A.exe\\University\\Tree\\Tree\\Tree.csproj"
+              "D:\\A.exe\\University\\Tree\\TreesNet6\\TreesNet6.csproj": {
+                "projectPath": "D:\\A.exe\\University\\Tree\\TreesNet6\\TreesNet6.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "D:\\A.exe\\University\\Tree\\Tree\\Tree.csproj": {
+    "D:\\A.exe\\University\\Tree\\TreesNet6\\TreesNet6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\A.exe\\University\\Tree\\Tree\\Tree.csproj",
-        "projectName": "Tree",
-        "projectPath": "D:\\A.exe\\University\\Tree\\Tree\\Tree.csproj",
+        "projectUniqueName": "D:\\A.exe\\University\\Tree\\TreesNet6\\TreesNet6.csproj",
+        "projectName": "TreesNet6",
+        "projectPath": "D:\\A.exe\\University\\Tree\\TreesNet6\\TreesNet6.csproj",
         "packagesPath": "C:\\Users\\CTpeJlok90D\\.nuget\\packages\\",
-        "outputPath": "D:\\A.exe\\University\\Tree\\Tree\\obj\\",
+        "outputPath": "D:\\A.exe\\University\\Tree\\TreesNet6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CTpeJlok90D\\AppData\\Roaming\\NuGet\\NuGet.Config",

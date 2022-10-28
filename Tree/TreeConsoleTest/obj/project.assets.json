@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Tree/1.0.0": {
+      "TreesNet6/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Tree.dll": {}
+          "bin/placeholder/TreesNet6.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Tree.dll": {}
+          "bin/placeholder/TreesNet6.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Tree/1.0.0": {
+    "TreesNet6/1.0.0": {
       "type": "project",
-      "path": "../Tree/Tree.csproj",
-      "msbuildProject": "../Tree/Tree.csproj"
+      "path": "../TreesNet6/TreesNet6.csproj",
+      "msbuildProject": "../TreesNet6/TreesNet6.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Tree >= 1.0.0"
+      "TreesNet6 >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -53,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\A.exe\\University\\Tree\\Tree\\Tree.csproj": {
-              "projectPath": "D:\\A.exe\\University\\Tree\\Tree\\Tree.csproj"
+            "D:\\A.exe\\University\\Tree\\TreesNet6\\TreesNet6.csproj": {
+              "projectPath": "D:\\A.exe\\University\\Tree\\TreesNet6\\TreesNet6.csproj"
             }
           }
         }

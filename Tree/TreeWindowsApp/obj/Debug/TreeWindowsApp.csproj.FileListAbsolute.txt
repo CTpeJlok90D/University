@@ -1,0 +1,11 @@
+D:\A.exe\University\Tree\TreeWindowsApp\obj\Debug\TreeWindowsApp.csproj.AssemblyReference.cache
+D:\A.exe\University\Tree\TreeWindowsApp\obj\Debug\TreeWindowsApp.csproj.SuggestedBindingRedirects.cache
+D:\A.exe\University\Tree\TreeWindowsApp\obj\Debug\TreeWindowsApp.MainForm.resources
+D:\A.exe\University\Tree\TreeWindowsApp\obj\Debug\TreeWindowsApp.Properties.Resources.resources
+D:\A.exe\University\Tree\TreeWindowsApp\obj\Debug\TreeWindowsApp.csproj.GenerateResource.cache
+D:\A.exe\University\Tree\TreeWindowsApp\obj\Debug\TreeWindowsApp.csproj.CoreCompileInputs.cache
+D:\A.exe\University\Tree\TreeWindowsApp\bin\Debug\TreeWindowsApp.exe.config
+D:\A.exe\University\Tree\TreeWindowsApp\bin\Debug\TreeWindowsApp.exe
+D:\A.exe\University\Tree\TreeWindowsApp\bin\Debug\TreeWindowsApp.pdb
+D:\A.exe\University\Tree\TreeWindowsApp\obj\Debug\TreeWindowsApp.exe
+D:\A.exe\University\Tree\TreeWindowsApp\obj\Debug\TreeWindowsApp.pdb

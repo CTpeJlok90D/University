@@ -8,8 +8,6 @@ D:\A.exe\University\Tree\TreeConsoleTest\bin\Debug\net6.0\TreeConsoleTest.deps.j
 D:\A.exe\University\Tree\TreeConsoleTest\bin\Debug\net6.0\TreeConsoleTest.runtimeconfig.json
 D:\A.exe\University\Tree\TreeConsoleTest\bin\Debug\net6.0\TreeConsoleTest.dll
 D:\A.exe\University\Tree\TreeConsoleTest\bin\Debug\net6.0\TreeConsoleTest.pdb
-D:\A.exe\University\Tree\TreeConsoleTest\bin\Debug\net6.0\Tree.dll
-D:\A.exe\University\Tree\TreeConsoleTest\bin\Debug\net6.0\Tree.pdb
 D:\A.exe\University\Tree\TreeConsoleTest\obj\Debug\net6.0\TreeConsoleTest.csproj.CopyComplete
 D:\A.exe\University\Tree\TreeConsoleTest\obj\Debug\net6.0\TreeConsoleTest.dll
 D:\A.exe\University\Tree\TreeConsoleTest\obj\Debug\net6.0\refint\TreeConsoleTest.dll
@@ -34,3 +32,5 @@ C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreeConsoleTest\obj\Debug\
 C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreeConsoleTest\obj\Debug\net6.0\TreeConsoleTest.pdb
 C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreeConsoleTest\obj\Debug\net6.0\TreeConsoleTest.genruntimeconfig.cache
 C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreeConsoleTest\obj\Debug\net6.0\ref\TreeConsoleTest.dll
+D:\A.exe\University\Tree\TreeConsoleTest\bin\Debug\net6.0\TreesNet6.dll
+D:\A.exe\University\Tree\TreeConsoleTest\bin\Debug\net6.0\TreesNet6.pdb
