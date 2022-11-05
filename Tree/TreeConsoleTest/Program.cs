@@ -4,7 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Test4();
+        Test3();
 
 
         void Test1()
