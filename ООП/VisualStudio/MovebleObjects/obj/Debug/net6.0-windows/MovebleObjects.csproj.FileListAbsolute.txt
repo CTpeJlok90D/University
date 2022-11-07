@@ -1,0 +1,17 @@
+D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\bin\Debug\net6.0-windows\MovebleObjects.exe
+D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\bin\Debug\net6.0-windows\MovebleObjects.deps.json
+D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\bin\Debug\net6.0-windows\MovebleObjects.runtimeconfig.json
+D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\bin\Debug\net6.0-windows\MovebleObjects.dll
+D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\bin\Debug\net6.0-windows\MovebleObjects.pdb
+D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\obj\Debug\net6.0-windows\MovebleObjects.csproj.AssemblyReference.cache
+D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\obj\Debug\net6.0-windows\MovebleObjects.N3.resources
+D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\obj\Debug\net6.0-windows\MovebleObjects.csproj.GenerateResource.cache
+D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\obj\Debug\net6.0-windows\MovebleObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\obj\Debug\net6.0-windows\MovebleObjects.AssemblyInfoInputs.cache
+D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\obj\Debug\net6.0-windows\MovebleObjects.AssemblyInfo.cs
+D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\obj\Debug\net6.0-windows\MovebleObjects.csproj.CoreCompileInputs.cache
+D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\obj\Debug\net6.0-windows\MovebleObjects.dll
+D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\obj\Debug\net6.0-windows\refint\MovebleObjects.dll
+D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\obj\Debug\net6.0-windows\MovebleObjects.pdb
+D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\obj\Debug\net6.0-windows\MovebleObjects.genruntimeconfig.cache
+D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\obj\Debug\net6.0-windows\ref\MovebleObjects.dll
