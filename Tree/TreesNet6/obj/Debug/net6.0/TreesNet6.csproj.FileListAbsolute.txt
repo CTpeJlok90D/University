@@ -10,3 +10,15 @@ D:\A.exe\University\Tree\TreesNet6\obj\Debug\net6.0\TreesNet6.dll
 D:\A.exe\University\Tree\TreesNet6\obj\Debug\net6.0\refint\TreesNet6.dll
 D:\A.exe\University\Tree\TreesNet6\obj\Debug\net6.0\TreesNet6.pdb
 D:\A.exe\University\Tree\TreesNet6\obj\Debug\net6.0\ref\TreesNet6.dll
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreesNet6\bin\Debug\net6.0\TreesNet6.deps.json
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreesNet6\bin\Debug\net6.0\TreesNet6.dll
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreesNet6\bin\Debug\net6.0\TreesNet6.pdb
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreesNet6\obj\Debug\net6.0\TreesNet6.csproj.AssemblyReference.cache
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreesNet6\obj\Debug\net6.0\TreesNet6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreesNet6\obj\Debug\net6.0\TreesNet6.AssemblyInfoInputs.cache
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreesNet6\obj\Debug\net6.0\TreesNet6.AssemblyInfo.cs
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreesNet6\obj\Debug\net6.0\TreesNet6.csproj.CoreCompileInputs.cache
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreesNet6\obj\Debug\net6.0\TreesNet6.dll
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreesNet6\obj\Debug\net6.0\refint\TreesNet6.dll
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreesNet6\obj\Debug\net6.0\TreesNet6.pdb
+C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreesNet6\obj\Debug\net6.0\ref\TreesNet6.dll

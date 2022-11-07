@@ -56,7 +56,7 @@ namespace Tree
             _branches[value > _value ? 1 : 0] = new FloatBinarTreeBranch(value, this);
         }
 
-        public void RemoveItem(int index) 
+        public void RemoveBranch(int index) 
         {
             if (_branches[index].IsEmpty) 
             {
@@ -70,7 +70,7 @@ namespace Tree
                 return;
             }
 
-            FloatBinarTreeBranch removingItem = this[index];
+            FloatBinarTreeBranch removingItem = _branches[index];
 
             FloatBinarTreeBranch currentBrach = removingItem.RightBranch;
             while (currentBrach.HaveLeftBrench)
@@ -78,16 +78,16 @@ namespace Tree
                 currentBrach = currentBrach.LeftBranch;
             }
             removingItem._value = currentBrach._value;
-            removingItem.Parent._branches[0] = currentBrach.RightBranch;
+            _branches[index]._branches[1] = currentBrach.RightBranch;
         }
 
-        public void RemoveIt()
+        public void RemoveSelf()
         {
             if (Parent == null)
             {
                 throw new Exception("You cant remove root");
             }
-            Parent.RemoveItem(Parent._branches[0] == this ? 0 : 1);
+            Parent.RemoveBranch(Parent._branches[0] == this ? 0 : 1);
         }
 
         public override string ToString() 

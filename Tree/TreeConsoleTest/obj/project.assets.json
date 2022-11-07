@@ -27,19 +27,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CTpeJlok90D\\.nuget\\packages\\": {}
+    "C:\\Users\\CTpeJlok90D\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\A.exe\\University\\Tree\\TreeConsoleTest\\TreeConsoleTest.csproj",
+      "projectUniqueName": "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\TreeConsoleTest\\TreeConsoleTest.csproj",
       "projectName": "TreeConsoleTest",
-      "projectPath": "D:\\A.exe\\University\\Tree\\TreeConsoleTest\\TreeConsoleTest.csproj",
+      "projectPath": "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\TreeConsoleTest\\TreeConsoleTest.csproj",
       "packagesPath": "C:\\Users\\CTpeJlok90D\\.nuget\\packages\\",
-      "outputPath": "D:\\A.exe\\University\\Tree\\TreeConsoleTest\\obj\\",
+      "outputPath": "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\TreeConsoleTest\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\CTpeJlok90D\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +58,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\A.exe\\University\\Tree\\TreesNet6\\TreesNet6.csproj": {
-              "projectPath": "D:\\A.exe\\University\\Tree\\TreesNet6\\TreesNet6.csproj"
+            "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\TreesNet6\\TreesNet6.csproj": {
+              "projectPath": "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\TreesNet6\\TreesNet6.csproj"
             }
           }
         }
@@ -74,8 +79,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -84,7 +88,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -50,7 +50,7 @@ namespace TreeWindow
             //    MessageBox.Show("Значение не найдено");
             //    return;
             //}
-            foundBranch.RemoveIt();
+            foundBranch.RemoveSelf();
         }
 
         private float TryReadValue(TextBox textBox)

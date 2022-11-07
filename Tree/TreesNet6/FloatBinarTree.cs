@@ -1,6 +1,4 @@
-﻿using System.Net.WebSockets;
-
-namespace Tree
+﻿namespace Tree
 {
     public class FloatBinarTree
     {
