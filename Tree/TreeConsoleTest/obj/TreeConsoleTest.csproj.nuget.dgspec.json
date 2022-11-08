@@ -1,34 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Odmin\\Documents\\GitHub\\University\\Tree\\TreeConsoleTest\\TreeConsoleTest.csproj": {}
+    "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\TreeConsoleTest\\TreeConsoleTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Odmin\\Documents\\GitHub\\University\\Tree\\TreeConsoleTest\\TreeConsoleTest.csproj": {
+    "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\TreeConsoleTest\\TreeConsoleTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Odmin\\Documents\\GitHub\\University\\Tree\\TreeConsoleTest\\TreeConsoleTest.csproj",
+        "projectUniqueName": "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\TreeConsoleTest\\TreeConsoleTest.csproj",
         "projectName": "TreeConsoleTest",
-        "projectPath": "C:\\Users\\Odmin\\Documents\\GitHub\\University\\Tree\\TreeConsoleTest\\TreeConsoleTest.csproj",
-        "packagesPath": "C:\\Users\\Odmin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Odmin\\Documents\\GitHub\\University\\Tree\\TreeConsoleTest\\obj\\",
+        "projectPath": "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\TreeConsoleTest\\TreeConsoleTest.csproj",
+        "packagesPath": "C:\\Users\\CTpeJlok90D\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\TreeConsoleTest\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Odmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CTpeJlok90D\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net60"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net60": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Odmin\\Documents\\GitHub\\University\\Tree\\Tree\\Tree.csproj": {
-                "projectPath": "C:\\Users\\Odmin\\Documents\\GitHub\\University\\Tree\\Tree\\Tree.csproj"
+              "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\TreesNet6\\TreesNet6.csproj": {
+                "projectPath": "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\TreesNet6\\TreesNet6.csproj"
               }
             }
           }
@@ -40,38 +45,54 @@
         }
       },
       "frameworks": {
-        "net60": {
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win7-x86": {
-          "#import": []
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Odmin\\Documents\\GitHub\\University\\Tree\\Tree\\Tree.csproj": {
+    "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\TreesNet6\\TreesNet6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Odmin\\Documents\\GitHub\\University\\Tree\\Tree\\Tree.csproj",
-        "projectName": "Tree",
-        "projectPath": "C:\\Users\\Odmin\\Documents\\GitHub\\University\\Tree\\Tree\\Tree.csproj",
-        "packagesPath": "C:\\Users\\Odmin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Odmin\\Documents\\GitHub\\University\\Tree\\Tree\\obj\\",
+        "projectUniqueName": "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\TreesNet6\\TreesNet6.csproj",
+        "projectName": "TreesNet6",
+        "projectPath": "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\TreesNet6\\TreesNet6.csproj",
+        "packagesPath": "C:\\Users\\CTpeJlok90D\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CTpeJlok90D\\Documents\\GitHub\\University\\Tree\\TreesNet6\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Odmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CTpeJlok90D\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net60"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net60": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -82,8 +103,24 @@
         }
       },
       "frameworks": {
-        "net60": {
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,31 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Odmin\\Documents\\GitHub\\University\\Tree\\Tree\\Tree.csproj": {}
+    "D:\\A.exe\\University\\Tree\\Tree\\Tree.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Odmin\\Documents\\GitHub\\University\\Tree\\Tree\\Tree.csproj": {
+    "D:\\A.exe\\University\\Tree\\Tree\\Tree.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Odmin\\Documents\\GitHub\\University\\Tree\\Tree\\Tree.csproj",
+        "projectUniqueName": "D:\\A.exe\\University\\Tree\\Tree\\Tree.csproj",
         "projectName": "Tree",
-        "projectPath": "C:\\Users\\Odmin\\Documents\\GitHub\\University\\Tree\\Tree\\Tree.csproj",
-        "packagesPath": "C:\\Users\\Odmin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Odmin\\Documents\\GitHub\\University\\Tree\\Tree\\obj\\",
+        "projectPath": "D:\\A.exe\\University\\Tree\\Tree\\Tree.csproj",
+        "packagesPath": "C:\\Users\\CTpeJlok90D\\.nuget\\packages\\",
+        "outputPath": "D:\\A.exe\\University\\Tree\\Tree\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Odmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CTpeJlok90D\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net60"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net60": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -36,8 +37,25 @@
         }
       },
       "frameworks": {
-        "net60": {
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

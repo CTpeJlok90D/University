@@ -24,5 +24,18 @@
         {
             return $"{_root}";
         }
+
+        public void Add(float value)
+        {
+            _root.AddBranch(value);
+        }
+
+        public void AddRange(float[] values)
+        {
+            foreach (float value in values)
+            {
+                Add(value);
+            }
+        }
     }
 }

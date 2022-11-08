@@ -8,15 +8,15 @@
     ".NETCoreApp,Version=v6.0": {
       "TreeConsoleTest/1.0.0": {
         "dependencies": {
-          "Tree": "1.0.0"
+          "TreesNet6": "1.0.0"
         },
         "runtime": {
           "TreeConsoleTest.dll": {}
         }
       },
-      "Tree/1.0.0": {
+      "TreesNet6/1.0.0": {
         "runtime": {
-          "Tree.dll": {}
+          "TreesNet6.dll": {}
         }
       }
     }
@@ -27,7 +27,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Tree/1.0.0": {
+    "TreesNet6/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
