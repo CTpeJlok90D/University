@@ -15,6 +15,11 @@
             get => _root[index];
         }
 
+        public void Add(float value)
+        {
+            _root.AddBranch(value);
+        }
+
         public override string ToString()
         {
             return $"{_root}";

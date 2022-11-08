@@ -2,7 +2,7 @@
 {
     public class Branch<T>
     {
-        private List<Branch<T>> _branches = new();
+        private List<Branch<T>> _branches = new List<Branch<T>>();
         private T _value;
 
         internal Branch(T value, List<Branch<T>> leaves)
@@ -18,7 +18,7 @@
         public T Value => _value;
         public int BranchCount => _branches.Count;
 
-        public virtual void AddBranch(T value)
+        internal virtual void AddBranch(T value)
         {
             _branches.Add(new Branch<T>(value));
         }

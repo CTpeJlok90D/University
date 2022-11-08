@@ -3,7 +3,7 @@
     public class FloatBinarTreeBranch
     {
         public float Value;
-        private List<FloatBinarTreeBranch> _branches = new();
+        private List<FloatBinarTreeBranch> _branches = new List<FloatBinarTreeBranch>();
 
         internal FloatBinarTreeBranch(float value)
         {
@@ -12,11 +12,11 @@
 
         public int BranchCount => _branches.Count;
 
-        public void AddBranch(float value)
+        internal void AddBranch(float value)
         {
             if(BranchCount >= 2)
             {
-                throw new Exception("Binar tree cannont content more then 2 Branchs");
+                _branches[value < Value ? 0 : 1].AddBranch(value);
             }
             _branches.Add(new FloatBinarTreeBranch(value));
             if (BranchCount == 2) 
