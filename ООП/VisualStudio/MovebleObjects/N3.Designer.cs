@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this._moveButtonDown = new System.Windows.Forms.Button();
             this._moveButtonUp = new System.Windows.Forms.Button();
             this._moveButtonLeft = new System.Windows.Forms.Button();
             this._moveButtonRight = new System.Windows.Forms.Button();
             this._pictureBox = new System.Windows.Forms.PictureBox();
             this._objectListBox = new System.Windows.Forms.ListBox();
+            this._timer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this._pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -85,6 +87,8 @@
             this._pictureBox.Size = new System.Drawing.Size(534, 426);
             this._pictureBox.TabIndex = 4;
             this._pictureBox.TabStop = false;
+            this._pictureBox.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PictureBoxMouseDown);
+            this._pictureBox.MouseUp += new System.Windows.Forms.MouseEventHandler(this.PictureBoxMouseUp);
             // 
             // _objectListBox
             // 
@@ -94,6 +98,11 @@
             this._objectListBox.Name = "_objectListBox";
             this._objectListBox.Size = new System.Drawing.Size(120, 334);
             this._objectListBox.TabIndex = 5;
+            // 
+            // _timer
+            // 
+            this._timer.Interval = 1;
+            this._timer.Tick += new System.EventHandler(this.TimerTick);
             // 
             // N3
             // 
@@ -121,5 +130,6 @@
         private Button _moveButtonRight;
         private PictureBox _pictureBox;
         private ListBox _objectListBox;
+        private System.Windows.Forms.Timer _timer;
     }
 }

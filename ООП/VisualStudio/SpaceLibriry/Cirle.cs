@@ -1,6 +1,8 @@
-﻿namespace MovebleObjects
+﻿using System.Drawing;
+
+namespace MovebleObjects
 {
-    internal class Cirle : Object
+    public class Cirle : Object
     {
         public Cirle(Vector2 position, Vector2 size) : base(position, size) { }
         public override string Name => "Circle";

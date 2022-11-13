@@ -1,6 +1,8 @@
-﻿namespace MovebleObjects
+﻿using System.Drawing;
+
+namespace MovebleObjects
 {
-    internal class Square : Object
+    public class Square : Object
     {
         public override string Name => "Square";
         public Square(Vector2 position, Vector2 size) : base(position, size){}

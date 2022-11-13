@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "N4khzBs0YiQ5E6RDMthx2gNKbGVYieEmgeC9XBolRIpPXBqMDnZK3zieKlwUCdpzFK6f6xYFyx5rRKOpHsF6Nw==",
+  "dgSpecHash": "wHZZXbqxBapCgEtwTn8EJJP5iJHmzlrefC59R+HGjfjPqf7PSYSmCZdgYe3ME0Od0FiqiTN+lgJKudrmWeacxQ==",
   "success": true,
   "projectFilePath": "D:\\_Институт\\University\\ООП\\ООП\\VisualStudio\\Stopwatch\\Stopwatch.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\CTpeJlok90D\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\CTpeJlok90D\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,12 @@
+D:\_Институт\University\ООП\ООП\VisualStudio\SpaceLibriry\bin\Debug\net6.0\SpaceLibriry.deps.json
+D:\_Институт\University\ООП\ООП\VisualStudio\SpaceLibriry\bin\Debug\net6.0\SpaceLibriry.dll
+D:\_Институт\University\ООП\ООП\VisualStudio\SpaceLibriry\bin\Debug\net6.0\SpaceLibriry.pdb
+D:\_Институт\University\ООП\ООП\VisualStudio\SpaceLibriry\obj\Debug\net6.0\SpaceLibriry.csproj.AssemblyReference.cache
+D:\_Институт\University\ООП\ООП\VisualStudio\SpaceLibriry\obj\Debug\net6.0\SpaceLibriry.GeneratedMSBuildEditorConfig.editorconfig
+D:\_Институт\University\ООП\ООП\VisualStudio\SpaceLibriry\obj\Debug\net6.0\SpaceLibriry.AssemblyInfoInputs.cache
+D:\_Институт\University\ООП\ООП\VisualStudio\SpaceLibriry\obj\Debug\net6.0\SpaceLibriry.AssemblyInfo.cs
+D:\_Институт\University\ООП\ООП\VisualStudio\SpaceLibriry\obj\Debug\net6.0\SpaceLibriry.csproj.CoreCompileInputs.cache
+D:\_Институт\University\ООП\ООП\VisualStudio\SpaceLibriry\obj\Debug\net6.0\SpaceLibriry.dll
+D:\_Институт\University\ООП\ООП\VisualStudio\SpaceLibriry\obj\Debug\net6.0\refint\SpaceLibriry.dll
+D:\_Институт\University\ООП\ООП\VisualStudio\SpaceLibriry\obj\Debug\net6.0\SpaceLibriry.pdb
+D:\_Институт\University\ООП\ООП\VisualStudio\SpaceLibriry\obj\Debug\net6.0\ref\SpaceLibriry.dll
