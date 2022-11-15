@@ -13,7 +13,7 @@ namespace AnimatedObjects
         public Form1()
         {
             InitializeComponent();
-            _object = new Square(new Vector2(100, 100), new Vector2(100, 100));
+            _object = new Cirle(new Vector2(100, 100), new Vector2(100, 100));
             _objects.Add(_object);
             _space = new Space(_objects, new Vector2(pictureBox1.Width, pictureBox1.Height));
             RenderImage();
@@ -22,7 +22,9 @@ namespace AnimatedObjects
                 new Vector2(100,100),
                 new Vector2(300,100),
                 new Vector2(300,300),
-                new Vector2(100,300)
+                new Vector2(100,300),
+                new Vector2(100,100),
+                new Vector2(300,300)
             }, 0.01f);
             _animationTimer.Enabled = true;
         }

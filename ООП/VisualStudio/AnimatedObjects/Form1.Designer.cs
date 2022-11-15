@@ -44,6 +44,7 @@
             // 
             // _animationTimer
             // 
+            this._animationTimer.Interval = 10;
             this._animationTimer.Tick += new System.EventHandler(this.AnimationTtimerTick);
             // 
             // Form1
