@@ -5,9 +5,9 @@ namespace MovebleObjects
     public class Space
     {
         private List<Object> _objects = new();
-        private Vector2 _size;
+        private Point _size;
 
-        public Space(List<Object> objects, Vector2 size)
+        public Space(List<Object> objects, Point size)
         {
             _objects = objects;
             _size = size;
@@ -15,7 +15,7 @@ namespace MovebleObjects
 
         public Image Render()
         {
-            Image image = new Bitmap(_size.x, _size.y);
+            Image image = new Bitmap(_size.X, _size.X);
             Graphics graphics = Graphics.FromImage(image);
             foreach (Object obj in _objects)
             {
@@ -24,7 +24,7 @@ namespace MovebleObjects
             return image;
         }
 
-        public Object? GetObjectByVector2(Vector2 position)
+        public Object? GetObjectByPoint(Point position)
         {
             foreach (Object @object in _objects)
             {
@@ -36,7 +36,7 @@ namespace MovebleObjects
             return null;
         }
 
-        public void TryMoveObject(Object @object, Vector2 offcet)
+        public void TryMoveObject(Object @object, Point offcet)
         {
             if (CanMove(@object, offcet))
             {
@@ -44,13 +44,13 @@ namespace MovebleObjects
             }
         }
 
-        private bool CanMove(Object @object, Vector2 offset)
+        private bool CanMove(Object @object, Point offset)
         {
-            Vector2 newPosition = @object.Position + offset;
-            return (newPosition.x > 0 && 
-                    newPosition.y > 0 &&
-                    newPosition.x + @object.Size.x < _size.x &&
-                    newPosition.y + @object.Size.y < _size.y);
+            Point newPosition = new Point(@object.Position.X + offset.X, @object.Position.Y + offset.Y);
+            return (newPosition.X > 0 && 
+                    newPosition.Y > 0 &&
+                    newPosition.X + @object.Size.X < _size.X &&
+                    newPosition.Y + @object.Size.Y < _size.Y);
         }
     }
 }

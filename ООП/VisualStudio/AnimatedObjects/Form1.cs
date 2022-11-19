@@ -1,4 +1,6 @@
 using MovebleObjects;
+using PlanetSystem;
+using SpaceLibriry;
 using Object = MovebleObjects.Object;
 
 namespace AnimatedObjects
@@ -7,25 +9,21 @@ namespace AnimatedObjects
     {
         private Space _space;
         private List<Object> _objects = new();
-        private Animation _animation;
         private Object _object;
+        private ElliplceAnimation _ellicpceAnimation;
+        private Point Center => new Point(pictureBox1.Width / 2, pictureBox1.Height / 2);
 
         public Form1()
         {
             InitializeComponent();
-            _object = new Cirle(new Vector2(100, 100), new Vector2(100, 100));
+            _object = new Eartch(new Point(0, 0));
             _objects.Add(_object);
-            _space = new Space(_objects, new Vector2(pictureBox1.Width, pictureBox1.Height));
+            _objects.Add(new Star(Center, new Point(100, 100)));
+            _space = new Space(_objects, new Point(pictureBox1.Width, pictureBox1.Height));
             RenderImage();
-            _animation = new Animation(new List<Vector2>()
-            {
-                new Vector2(100,100),
-                new Vector2(300,100),
-                new Vector2(300,300),
-                new Vector2(100,300),
-                new Vector2(100,100),
-                new Vector2(300,300)
-            }, 0.01f);
+
+            _ellicpceAnimation = new(Center, 180, 150);
+
             _animationTimer.Enabled = true;
         }
 
@@ -34,15 +32,11 @@ namespace AnimatedObjects
             pictureBox1.Image = _space.Render();
         }
 
-        private void AnimationTtimerTick(object sender, EventArgs e)
+        private void AnimationTtimerTick(object sender, EventArgs e) 
         {
-            _animation.OnTick();
-            _object.SetPosition(_animation.CurrentPoint);
+            _ellicpceAnimation.OnTick();
+            _object.Position = _ellicpceAnimation.CurrentPoint;
             RenderImage();
-            if (_animation.IsFinished)
-            {
-                _animationTimer.Enabled = false;
-            }
         }
     }
 }

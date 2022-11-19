@@ -32,3 +32,10 @@ D:\_Институт\University\ООП\ООП\VisualStudio\Stopwatch\obj\Debug\n
 D:\_Институт\University\ООП\ООП\VisualStudio\Stopwatch\obj\Debug\net6.0-windows\Stopwatch.pdb
 D:\_Институт\University\ООП\ООП\VisualStudio\Stopwatch\obj\Debug\net6.0-windows\Stopwatch.genruntimeconfig.cache
 D:\_Институт\University\ООП\ООП\VisualStudio\Stopwatch\obj\Debug\net6.0-windows\ref\Stopwatch.dll
+D:\_Институт\University\ООП\ООП\VisualStudio\Stopwatch\bin\Debug\net6.0-windows\Microsoft.Win32.SystemEvents.dll
+D:\_Институт\University\ООП\ООП\VisualStudio\Stopwatch\bin\Debug\net6.0-windows\System.Drawing.Common.dll
+D:\_Институт\University\ООП\ООП\VisualStudio\Stopwatch\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\_Институт\University\ООП\ООП\VisualStudio\Stopwatch\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\_Институт\University\ООП\ООП\VisualStudio\Stopwatch\bin\Debug\net6.0-windows\SpaceLibriry.dll
+D:\_Институт\University\ООП\ООП\VisualStudio\Stopwatch\bin\Debug\net6.0-windows\SpaceLibriry.pdb
+D:\_Институт\University\ООП\ООП\VisualStudio\Stopwatch\obj\Debug\net6.0-windows\Stopwatch.csproj.CopyComplete

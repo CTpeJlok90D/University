@@ -1,0 +1,12 @@
+D:\_Институт\University\ООП\ООП\VisualStudio\Person\obj\Debug\net6.0\Persons.csproj.AssemblyReference.cache
+D:\_Институт\University\ООП\ООП\VisualStudio\Person\obj\Debug\net6.0\Persons.GeneratedMSBuildEditorConfig.editorconfig
+D:\_Институт\University\ООП\ООП\VisualStudio\Person\obj\Debug\net6.0\Persons.AssemblyInfoInputs.cache
+D:\_Институт\University\ООП\ООП\VisualStudio\Person\obj\Debug\net6.0\Persons.AssemblyInfo.cs
+D:\_Институт\University\ООП\ООП\VisualStudio\Person\obj\Debug\net6.0\Persons.csproj.CoreCompileInputs.cache
+D:\_Институт\University\ООП\ООП\VisualStudio\Person\bin\Debug\net6.0\Persons.deps.json
+D:\_Институт\University\ООП\ООП\VisualStudio\Person\bin\Debug\net6.0\Persons.dll
+D:\_Институт\University\ООП\ООП\VisualStudio\Person\bin\Debug\net6.0\Persons.pdb
+D:\_Институт\University\ООП\ООП\VisualStudio\Person\obj\Debug\net6.0\Persons.dll
+D:\_Институт\University\ООП\ООП\VisualStudio\Person\obj\Debug\net6.0\refint\Persons.dll
+D:\_Институт\University\ООП\ООП\VisualStudio\Person\obj\Debug\net6.0\Persons.pdb
+D:\_Институт\University\ООП\ООП\VisualStudio\Person\obj\Debug\net6.0\ref\Persons.dll

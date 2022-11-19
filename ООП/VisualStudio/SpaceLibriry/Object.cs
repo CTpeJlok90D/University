@@ -4,30 +4,30 @@ namespace MovebleObjects
 {
     public abstract class Object : IRenderable
     {
-        public Vector2 Position { get; set;}
-        public Vector2 Size { get; private set; }
+        public Point Position { get; set; }
+        public Point Size { get; private set; }
         public virtual string Name => "UnnamedObject";
 
-        public Object(Vector2 position, Vector2 size)
+        public Object(Point position, Point size)
         {
             Position = position;
             Size = size;
         }
 
-        public void Move(Vector2 offcet)
+        public void Move(Point offcet)
         {
-            Position += offcet;
+            Position = new Point(Position.X + offcet.X, Position.Y + offcet.Y);
         }
 
-        public void SetPosition(Vector2 newPosition)
+        public void SetPosition(Point newPosition)
         {
             Position = newPosition;
         }
 
-        public bool HaveThisCords(Vector2 position)
+        public bool HaveThisCords(Point position)
         {
-            return position.x < Size.x + Position.x && position.y < Size.y + Position.y 
-                && position.x > Position.x && position.y > Position.y;
+            return position.X < Size.X + Position.X && position.Y < Size.Y + Position.Y
+                && position.X > Position.X && position.Y > Position.Y;
         }
 
         public abstract void RenderOn(Graphics graphics);

@@ -151,9 +151,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_Институт\\University\\ООП\\ООП\\VisualStudio\\AnimatedObjects\\AnimatedObjects.csproj",
-      "projectName": "AnimatedObjects",
-      "projectPath": "D:\\_Институт\\University\\ООП\\ООП\\VisualStudio\\AnimatedObjects\\AnimatedObjects.csproj",
+      "projectUniqueName": "D:\\_Институт\\University\\ООП\\ООП\\VisualStudio\\AnimatedObjects\\PlanetSystem.csproj",
+      "projectName": "PlanetSystem",
+      "projectPath": "D:\\_Институт\\University\\ООП\\ООП\\VisualStudio\\AnimatedObjects\\PlanetSystem.csproj",
       "packagesPath": "C:\\Users\\CTpeJlok90D\\.nuget\\packages\\",
       "outputPath": "D:\\_Институт\\University\\ООП\\ООП\\VisualStudio\\AnimatedObjects\\obj\\",
       "projectStyle": "PackageReference",

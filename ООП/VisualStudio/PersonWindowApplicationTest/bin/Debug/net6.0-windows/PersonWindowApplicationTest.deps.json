@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PersonWindowApplicationTest/1.0.0": {
+        "dependencies": {
+          "Persons": "1.0.0"
+        },
+        "runtime": {
+          "PersonWindowApplicationTest.dll": {}
+        }
+      },
+      "Persons/1.0.0": {
+        "runtime": {
+          "Persons.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PersonWindowApplicationTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Persons/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

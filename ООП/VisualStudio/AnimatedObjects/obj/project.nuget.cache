@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mJ8EZnRVzGW1WK4eXfUMD7677xHqgR8cLJvh2IHfzGmaIDrIjwccl/Rmz8EC9nj03+iWVAw+wyZlrfiyMVyOuw==",
+  "dgSpecHash": "8ERNOOQSBq2veW4+TjQ1t/rOpCSachxzbnfBW7++D0O0Y3Xxk6SR0A9PCEbCboPr31KnNgZLbbEMOALpUBNmtw==",
   "success": true,
-  "projectFilePath": "D:\\_Институт\\University\\ООП\\ООП\\VisualStudio\\AnimatedObjects\\AnimatedObjects.csproj",
+  "projectFilePath": "D:\\_Институт\\University\\ООП\\ООП\\VisualStudio\\AnimatedObjects\\PlanetSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CTpeJlok90D\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
     "C:\\Users\\CTpeJlok90D\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"

@@ -12,10 +12,10 @@ namespace MovebleObjects
         public N3()
         {
             InitializeComponent();
-            _objects.Add(new Cirle(new Vector2(100, 100), new Vector2(100, 100)));
-            _objects.Add(new Square(new Vector2(300, 300), new Vector2(100, 100)));
+            _objects.Add(new Cirle(new Point(100, 100), new Point(100, 100)));
+            _objects.Add(new Square(new Point(300, 300), new Point(100, 100)));
 
-            _space = new(_objects, new Vector2(_pictureBox.Size.Width, _pictureBox.Size.Height));
+            _space = new(_objects, new Point(_pictureBox.Size.Width, _pictureBox.Size.Height));
 
             _objectListBox.DataSource = _objects;
             _objectListBox.DisplayMember = "Name";
@@ -29,32 +29,32 @@ namespace MovebleObjects
 
         private void MoveButtonUpClick(object sender, EventArgs e)
         {
-            _space.TryMoveObject(selectedObject, Vector2.down * _moveSpeed);
+            _space.TryMoveObject(selectedObject, Point.down * _moveSpeed);
             RenderImage();
         }
 
         private void MoveButtonLeftClick(object sender, EventArgs e)
         {
-            _space.TryMoveObject(selectedObject, Vector2.left * _moveSpeed);
+            _space.TryMoveObject(selectedObject, Point.left * _moveSpeed);
             RenderImage();
         }
 
         private void MoveButtonDownClick(object sender, EventArgs e)
         {
-            _space.TryMoveObject(selectedObject, Vector2.up * _moveSpeed);
+            _space.TryMoveObject(selectedObject, Point.up * _moveSpeed);
             RenderImage();
 
         }
 
         private void MoveButtonRightClick(object sender, EventArgs e)
         {
-            _space.TryMoveObject(selectedObject, Vector2.right * _moveSpeed);
+            _space.TryMoveObject(selectedObject, Point.right * _moveSpeed);
             RenderImage();
         }
 
         private void ObjectFollow()
         {
-            Vector2 cursorPosition = Vector2.ToVector2(_pictureBox.PointToClient(Cursor.Position));
+            Point cursorPosition = Point.ToPoint(_pictureBox.PointToClient(Cursor.Position));
             if (_clickedObject == null)
             {
                 return;
@@ -63,15 +63,15 @@ namespace MovebleObjects
             RenderImage();
         }
 
-        private Object? GetObjectByVector2(Vector2 position)
+        private Object? GetObjectByPoint(Point position)
         {
-            return _space.GetObjectByVector2(position);
+            return _space.GetObjectByPoint(position);
         }
 
         private void PictureBoxMouseDown(object sender, MouseEventArgs e)
         {
-            Vector2 cursorPosition = Vector2.ToVector2(_pictureBox.PointToClient(Cursor.Position));
-            _clickedObject = GetObjectByVector2(cursorPosition);
+            Point cursorPosition = Point.ToPoint(_pictureBox.PointToClient(Cursor.Position));
+            _clickedObject = GetObjectByPoint(cursorPosition);
             _timer.Enabled = true;
         }
 

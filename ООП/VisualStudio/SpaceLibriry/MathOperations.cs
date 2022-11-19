@@ -1,11 +1,13 @@
-﻿namespace MovebleObjects
+﻿using System.Drawing;
+
+namespace MovebleObjects
 {
     public static class MathOperations
     {
-        public static Vector2 Lerp(Vector2 pointA, Vector2 pointB, float coefficient)
+        public static Point Lerp(Point pointA, Point pointB, float coefficient)
         {
-            return new Vector2
-                ((int)Lerp(pointA.x, pointB.x, coefficient), (int)Lerp(pointA.y, pointB.y, coefficient));
+            return new Point
+                ((int)Lerp(pointA.X, pointB.X, coefficient), (int)Lerp(pointA.Y, pointB.Y, coefficient));
         }
 
         public static float Lerp(int A, int B, float coefficient)
