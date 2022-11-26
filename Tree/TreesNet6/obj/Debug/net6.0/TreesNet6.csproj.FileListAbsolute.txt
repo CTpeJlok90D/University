@@ -22,3 +22,15 @@ C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreesNet6\obj\Debug\net6.0
 C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreesNet6\obj\Debug\net6.0\refint\TreesNet6.dll
 C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreesNet6\obj\Debug\net6.0\TreesNet6.pdb
 C:\Users\CTpeJlok90D\Documents\GitHub\University\Tree\TreesNet6\obj\Debug\net6.0\ref\TreesNet6.dll
+D:\_Институт\University\ООП\Tree\TreesNet6\bin\Debug\net6.0\TreesNet6.deps.json
+D:\_Институт\University\ООП\Tree\TreesNet6\bin\Debug\net6.0\TreesNet6.dll
+D:\_Институт\University\ООП\Tree\TreesNet6\bin\Debug\net6.0\TreesNet6.pdb
+D:\_Институт\University\ООП\Tree\TreesNet6\obj\Debug\net6.0\TreesNet6.csproj.AssemblyReference.cache
+D:\_Институт\University\ООП\Tree\TreesNet6\obj\Debug\net6.0\TreesNet6.GeneratedMSBuildEditorConfig.editorconfig
+D:\_Институт\University\ООП\Tree\TreesNet6\obj\Debug\net6.0\TreesNet6.AssemblyInfoInputs.cache
+D:\_Институт\University\ООП\Tree\TreesNet6\obj\Debug\net6.0\TreesNet6.AssemblyInfo.cs
+D:\_Институт\University\ООП\Tree\TreesNet6\obj\Debug\net6.0\TreesNet6.csproj.CoreCompileInputs.cache
+D:\_Институт\University\ООП\Tree\TreesNet6\obj\Debug\net6.0\TreesNet6.dll
+D:\_Институт\University\ООП\Tree\TreesNet6\obj\Debug\net6.0\refint\TreesNet6.dll
+D:\_Институт\University\ООП\Tree\TreesNet6\obj\Debug\net6.0\TreesNet6.pdb
+D:\_Институт\University\ООП\Tree\TreesNet6\obj\Debug\net6.0\ref\TreesNet6.dll

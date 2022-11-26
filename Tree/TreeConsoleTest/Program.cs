@@ -4,12 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-<<<<<<< HEAD
         Test1();
-=======
-        Test3();
->>>>>>> a33ec0a2a4dbf00d16bad6cf8f8b46fc6170db59
-
 
         void Test1()
         {

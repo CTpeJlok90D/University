@@ -29,37 +29,37 @@ namespace MovebleObjects
 
         private void MoveButtonUpClick(object sender, EventArgs e)
         {
-            _space.TryMoveObject(selectedObject, Point.down * _moveSpeed);
+            _space.TryMoveObject(selectedObject, new Point(0,-1 * _moveSpeed));
             RenderImage();
         }
 
         private void MoveButtonLeftClick(object sender, EventArgs e)
         {
-            _space.TryMoveObject(selectedObject, Point.left * _moveSpeed);
+            _space.TryMoveObject(selectedObject, new Point(-1 * _moveSpeed,0));
             RenderImage();
         }
 
         private void MoveButtonDownClick(object sender, EventArgs e)
         {
-            _space.TryMoveObject(selectedObject, Point.up * _moveSpeed);
+            _space.TryMoveObject(selectedObject, new Point(0, 1 * _moveSpeed));
             RenderImage();
 
         }
 
         private void MoveButtonRightClick(object sender, EventArgs e)
         {
-            _space.TryMoveObject(selectedObject, Point.right * _moveSpeed);
+            _space.TryMoveObject(selectedObject, new Point(1 * _moveSpeed, 0));
             RenderImage();
         }
 
         private void ObjectFollow()
         {
-            Point cursorPosition = Point.ToPoint(_pictureBox.PointToClient(Cursor.Position));
+            Point cursorPosition = _pictureBox.PointToClient(Cursor.Position);
             if (_clickedObject == null)
             {
                 return;
             }
-            _space.TryMoveObject(_clickedObject, cursorPosition - _clickedObject.Position - _clickedObject.Size / 2);
+            _space.TryMoveObject(_clickedObject, new Point(cursorPosition.X - _clickedObject.Position.X - _clickedObject.Size.X / 2, cursorPosition.Y - _clickedObject.Position.Y - _clickedObject.Size.Y / 2));
             RenderImage();
         }
 
@@ -70,7 +70,7 @@ namespace MovebleObjects
 
         private void PictureBoxMouseDown(object sender, MouseEventArgs e)
         {
-            Point cursorPosition = Point.ToPoint(_pictureBox.PointToClient(Cursor.Position));
+            Point cursorPosition = _pictureBox.PointToClient(Cursor.Position);
             _clickedObject = GetObjectByPoint(cursorPosition);
             _timer.Enabled = true;
         }
