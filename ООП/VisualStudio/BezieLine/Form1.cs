@@ -8,6 +8,7 @@ public partial class Form1 : Form
     private List<Object> _dots = new();
     private Point[] _bezieDots;
     private Space _space;
+    private BezieCurve _curve;
 
     public Form1()
     {
@@ -22,7 +23,8 @@ public partial class Form1 : Form
         _renderables.AddRange(_dots);
 
         _bezieDots = new Point[_dots.Count];
-        _renderables.Add(new BezieLine(_bezieDots));
+        _curve = new BezieCurve(_bezieDots);
+        _renderables.Add(_curve);
 
         _space = new(_renderables, (Point)_pictureBox.Size);
     }
@@ -66,5 +68,17 @@ public partial class Form1 : Form
             _bezieDots[i] = _dots[i].Position;
         }
         Render();
+    }
+
+    private void TrackBarOnScroll(object sender, EventArgs e)
+    {
+        float currentValue = trackBar1.Value / 100f;
+         _curve.DebugCoefficient = currentValue;
+        _coefficientTextBox.Text = currentValue.ToString();
+    }
+
+    private void DebugOnCheckedChanged(object sender, EventArgs e)
+    {
+        _curve.DebugMode = _debug.Checked;
     }
 }
