@@ -4,7 +4,6 @@ D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\bin\De
 D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\bin\Debug\net6.0-windows\MovebleObjects.dll
 D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\bin\Debug\net6.0-windows\MovebleObjects.pdb
 D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\obj\Debug\net6.0-windows\MovebleObjects.csproj.AssemblyReference.cache
-D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\obj\Debug\net6.0-windows\MovebleObjects.N3.resources
 D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\obj\Debug\net6.0-windows\MovebleObjects.csproj.GenerateResource.cache
 D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\obj\Debug\net6.0-windows\MovebleObjects.GeneratedMSBuildEditorConfig.editorconfig
 D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\obj\Debug\net6.0-windows\MovebleObjects.AssemblyInfoInputs.cache
@@ -22,3 +21,4 @@ D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\bin\De
 D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\bin\Debug\net6.0-windows\SpaceLibriry.dll
 D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\bin\Debug\net6.0-windows\SpaceLibriry.pdb
 D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\obj\Debug\net6.0-windows\MovebleObjects.csproj.CopyComplete
+D:\_Институт\University\ООП\ООП\VisualStudio\MovebleObjects\obj\Debug\net6.0-windows\SpaceLibriry.N3.resources

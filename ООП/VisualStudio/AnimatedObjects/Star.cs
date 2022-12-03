@@ -1,4 +1,4 @@
-﻿using Object = MovebleObjects.Object;
+﻿using Object = SpaceLibriry.Object;
 
 namespace PlanetSystem
 {

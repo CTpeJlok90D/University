@@ -1,7 +1,7 @@
 ﻿using SpaceLibriry;
 using System.Drawing;
 
-namespace MovebleObjects
+namespace SpaceLibriry
 {
     public class LineAnimation : IAnimation
     {

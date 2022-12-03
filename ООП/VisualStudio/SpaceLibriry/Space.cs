@@ -1,13 +1,13 @@
 ﻿using System.Drawing;
 
-namespace MovebleObjects
+namespace SpaceLibriry
 {
     public class Space
     {
-        private List<Object> _objects = new();
+        private List<IRenderable> _objects = new();
         private Point _size;
 
-        public Space(List<Object> objects, Point size)
+        public Space(List<IRenderable> objects, Point size)
         {
             _objects = objects;
             _size = size;
@@ -17,7 +17,7 @@ namespace MovebleObjects
         {
             Image image = new Bitmap(_size.X, _size.X);
             Graphics graphics = Graphics.FromImage(image);
-            foreach (Object obj in _objects)
+            foreach (IRenderable obj in _objects)
             {
                 obj.RenderOn(graphics);
             }
@@ -26,11 +26,15 @@ namespace MovebleObjects
 
         public Object? GetObjectByPoint(Point position)
         {
-            foreach (Object @object in _objects)
+            foreach (IRenderable currentObject in _objects)
             {
-                if (@object.HaveThisCords(position))
+                if (currentObject is not Object)
                 {
-                    return @object;
+                    continue;
+                }
+                if (((Object)currentObject).HaveThisCords(position))
+                {
+                    return (Object)currentObject;
                 }
             }
             return null;

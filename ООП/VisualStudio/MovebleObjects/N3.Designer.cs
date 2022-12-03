@@ -1,4 +1,4 @@
-﻿namespace MovebleObjects
+﻿namespace SpaceLibriry
 {
     partial class N3
     {

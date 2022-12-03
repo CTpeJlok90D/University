@@ -1,14 +1,13 @@
-using MovebleObjects;
-using PlanetSystem;
 using SpaceLibriry;
-using Object = MovebleObjects.Object;
+using PlanetSystem;
+using Object = SpaceLibriry.Object;
 
 namespace AnimatedObjects
 {
     public partial class Form1 : Form
     {
         private Space _space;
-        private List<Object> _objects = new();
+        private List<IRenderable> _objects = new();
         private Object _object;
         private ElliplceAnimation _ellicpceAnimation;
         private Point Center => new Point(pictureBox1.Width / 2, pictureBox1.Height / 2);

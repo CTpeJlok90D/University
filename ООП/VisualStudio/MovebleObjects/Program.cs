@@ -1,4 +1,4 @@
-namespace MovebleObjects
+namespace SpaceLibriry
 {
     internal static class Program
     {

@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace MovebleObjects
+namespace SpaceLibriry
 {
     public abstract class Object : IRenderable
     {
@@ -26,8 +26,8 @@ namespace MovebleObjects
 
         public bool HaveThisCords(Point position)
         {
-            return position.X < Size.X + Position.X && position.Y < Size.Y + Position.Y
-                && position.X > Position.X && position.Y > Position.Y;
+            return position.X < Size.X / 2 + Position.X && position.Y < Size.Y / 2 + Position.Y
+                && position.X > Position.X - Size.X / 2 && position.Y > Position.Y - Size.Y / 2;
         }
 
         public abstract void RenderOn(Graphics graphics);

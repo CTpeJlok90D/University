@@ -1,13 +1,13 @@
-namespace MovebleObjects
+namespace SpaceLibriry
 {
     public partial class N3 : Form
     {
         private Space _space;
-        private List<Object> _objects = new();
+        private List<IRenderable> _objects = new();
         private int _moveSpeed = 10;
         private Object? _clickedObject;
 
-        private Object selectedObject => _objects[_objectListBox.SelectedIndex];
+        private Object selectedObject => (Object)_objectListBox.SelectedItem;
 
         public N3()
         {

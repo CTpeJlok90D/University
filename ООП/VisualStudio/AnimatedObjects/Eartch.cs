@@ -1,7 +1,7 @@
 ﻿
 namespace PlanetSystem
 {
-    internal class Eartch : MovebleObjects.Object
+    internal class Eartch : SpaceLibriry.Object
     {
         public Eartch(Point position) : base(position, new Point(50, 50))
         {

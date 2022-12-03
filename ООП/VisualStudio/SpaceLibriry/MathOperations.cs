@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace MovebleObjects
+namespace SpaceLibriry
 {
     public static class MathOperations
     {
