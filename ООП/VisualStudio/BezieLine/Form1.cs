@@ -18,7 +18,7 @@ public partial class Form1 : Form
         _dots.Add(new Dot(new Point(_pictureBox.Size.Width / 2 + 100, _pictureBox.Size.Height / 2 + 100)));
         _dots.Add(new Dot(new Point(_pictureBox.Size.Width / 2 - 100, _pictureBox.Size.Height / 2 + 100)));
         _dots.Add(new Dot(new Point(_pictureBox.Size.Width / 2 - 100, _pictureBox.Size.Height / 2 - 100)));
-        //_dots.Add(new Dot(new Point(_pictureBox.Size.Width / 2 - 150, _pictureBox.Size.Height / 2 - 150)));
+        _dots.Add(new Dot(new Point(_pictureBox.Size.Width / 2 - 150, _pictureBox.Size.Height / 2 - 150)));
 
         _renderables.AddRange(_dots);
 

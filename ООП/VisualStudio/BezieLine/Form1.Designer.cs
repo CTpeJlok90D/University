@@ -94,6 +94,7 @@
             this._coefficientTextBox.ReadOnly = true;
             this._coefficientTextBox.Size = new System.Drawing.Size(100, 23);
             this._coefficientTextBox.TabIndex = 1;
+            this._coefficientTextBox.Text = "0,5";
             // 
             // _debug
             // 
